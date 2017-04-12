@@ -1,0 +1,7 @@
+.architect
+/frontend/build/
+/frontend/bootstrap.css
+/frontend/bootstrap.json
+/frontend/bootstrap.js
+/frontend/bootstrap.jsonp
+/frontend/index.js
