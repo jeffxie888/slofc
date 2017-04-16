@@ -14,15 +14,14 @@ Ext.define('Fc.view.main.List', {
     },
 
     tbar: [
-        {xtype: 'textfield', flex: 1 },
-        {xtype: 'button', text: 'Search' }
+        {xtype: 'textfield', flex: 1.0 },
+        {xtype: 'button', text: 'Search', iconCls: 'x-fa fa-search' },
+        {
+            xtype: 'button',
+            text: 'New Post',
+        }
     ],
 
-    columns: [
-        { text: 'Name',  dataIndex: 'name', flex: 1 },
-        { text: 'Email', dataIndex: 'email', flex: 1 },
-        { text: 'Phone', dataIndex: 'phone', flex: 1 }
-    ],
 
     listeners: {
         select: 'onItemSelected'
