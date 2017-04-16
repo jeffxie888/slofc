@@ -13,13 +13,14 @@ Ext.define('Fc.view.main.List', {
         type: 'personnel'
     },
 
+    // This is the search bar
     tbar: [
         {xtype: 'textfield', flex: 1 },
         {xtype: 'button', text: 'Search' }
     ],
 
     columns: [
-        { text: 'Name',  dataIndex: 'name', flex: 1 },
+        { dataIndex: 'name', flex: 1 },
         { text: 'Email', dataIndex: 'email', flex: 1 },
         { text: 'Phone', dataIndex: 'phone', flex: 1 }
     ],
