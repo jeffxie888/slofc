@@ -9,14 +9,17 @@ Ext.define('Fc.view.main.List', {
         'Fc.store.Personnel'
     ],
 
-    title: 'Personnel',
-
     store: {
         type: 'personnel'
     },
 
+    tbar: [
+        {xtype: 'textfield', flex: 1 },
+        {xtype: 'button', text: 'Search' }
+    ],
+
     columns: [
-        { text: 'Name',  dataIndex: 'name' },
+        { text: 'Name',  dataIndex: 'name', flex: 1 },
         { text: 'Email', dataIndex: 'email', flex: 1 },
         { text: 'Phone', dataIndex: 'phone', flex: 1 }
     ],

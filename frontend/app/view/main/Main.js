@@ -37,7 +37,7 @@ Ext.define('Fc.view.main.Main', {
             },
             flex: 0
         },
-        iconCls: 'fa-th-list'
+        iconCls: 'fa-recycle'
     },
 
     tabBar: {
@@ -83,22 +83,13 @@ Ext.define('Fc.view.main.Main', {
             xtype: 'mainlist'
         }]
     }, {
-        title: 'Users',
+        title: 'Profile',
         iconCls: 'fa-user',
         bind: {
             html: '{loremIpsum}'
         }
     }, {
-        title: 'Groups',
-        iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Settings',
-        iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        title: 'About',
+        iconCls: 'fa-info-circle'
     }]
 });
