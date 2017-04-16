@@ -19,7 +19,10 @@ Ext.define('Fc.view.main.List', {
         {xtype: 'button', text: 'Search', iconCls: 'x-fa fa-search' },
         {
             xtype: 'button',
-            text: 'New Post',
+            text: '<div style="color: white">New Post</div>',
+            style: {
+                'background-color': '#006633'
+            }
         }
     ],
 
