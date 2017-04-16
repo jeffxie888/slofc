@@ -90,6 +90,9 @@ Ext.define('Fc.view.main.Main', {
         }
     }, {
         title: 'About',
-        iconCls: 'fa-info-circle'
+        iconCls: 'fa-info-circle',
+        bind:  {
+            html: '{aboutus}'
+        }
     }]
 });
