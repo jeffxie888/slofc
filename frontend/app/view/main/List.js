@@ -6,11 +6,11 @@ Ext.define('Fc.view.main.List', {
     xtype: 'mainlist',
 
     requires: [
-        'Fc.store.Personnel'
+        
     ],
 
     store: {
-        type: 'personnel'
+        
     },
 
     // This is the search bar
@@ -22,15 +22,6 @@ Ext.define('Fc.view.main.List', {
             text: 'New Post',
         }
     ],
-
-<<<<<<< HEAD
-=======
-    columns: [
-        { dataIndex: 'name', flex: 1 },
-        { text: 'Email', dataIndex: 'email', flex: 1 },
-        { text: 'Phone', dataIndex: 'phone', flex: 1 }
-    ],
->>>>>>> 1098e0c3b46173cf5a380d82a6c93f6238dd9590
 
     listeners: {
         select: 'onItemSelected'
