@@ -1,7 +1,24 @@
 Ext.define('Fc.view.main.ImageView', {
     extend: 'Ext.panel.Panel',
     xtype: 'imageview',
+    requires: [
+        'Ext.data.*',
+        'Ext.util.*',
+        'Ext.view.View'
+    ],
 
+    // This is the search bar
+    tbar: [
+        {xtype: 'textfield', flex: 1.0 },
+        {xtype: 'button', text: 'Search', iconCls: 'x-fa fa-search' },
+        {
+            xtype: 'button',
+            text: '<div style="color: white">New Post</div>',
+            style: {
+                'background-color': '#006633'
+            }
+        }
+    ],
 
     /**
      * @method initComponent
@@ -14,11 +31,12 @@ Ext.define('Fc.view.main.ImageView', {
 	        fields: [
 	           {name: 'name'},
 	           {name: 'url'},
-	           {name: 'size', type: 'float'},
-	           {name:'lastmod', type:'date', dateFormat:'timestamp'}
+	           {name: 'size', type: 'float'}
+	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
 	        ]
 	    });
 
+        /*
 	    var store = Ext.create('Ext.data.Store', {
 	        model: 'ImageModel',
 	        autoLoad: true,
@@ -31,6 +49,18 @@ Ext.define('Fc.view.main.ImageView', {
 	            }
 	        }
 	    });
+        */
+
+        var store = Ext.create('Ext.data.Store', {
+                 model: 'User',
+                 data : [
+                    {
+                        name: 'chair-img1',
+                        shortName: 'img1',
+                        url: '../../test/images/chair.jpg'
+                    },
+                 ]
+        });
 
 	    this.items = {
 	    	xtype: 'dataview',
@@ -60,7 +90,7 @@ Ext.define('Fc.view.main.ImageView', {
                 Ext.apply(data, {
                     shortName: Ext.util.Format.ellipsis(data.name, 15),
                     sizeString: Ext.util.Format.fileSize(data.size),
-                    dateString: Ext.util.Format.date(data.lastmod, "m/d/Y g:i a")
+                    //dateString: Ext.util.Format.date(data.lastmod, "m/d/Y g:i a")
                 });
                 return data;
             },
@@ -74,4 +104,8 @@ Ext.define('Fc.view.main.ImageView', {
         };
     	
     	this.callParent(arguments);
-    },
+    }
+});
+
+
+
