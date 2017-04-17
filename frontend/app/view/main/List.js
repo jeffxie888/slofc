@@ -14,16 +14,13 @@ Ext.define('Fc.view.main.List', {
 
     items: [
         {
-            /*xtype: 'panel',
+            xtype: 'panel',
             title: 'Child Panel 1',
-            height: 100,
-            columnWidth: '0.3333'*/
             title: 'Panel 1',
             x: 0,
             y: 0,
-            style: {
-                backgroundImage: 'url(Fc.test.images.chair.jpg'
-            }
+            /*xtype: 'image',*/
+            src: 'sheos.jpg'
         },
         {
             /*xtype: 'panel',
@@ -34,7 +31,7 @@ Ext.define('Fc.view.main.List', {
             x: 337,
             y: 0,
             xtype: 'image',
-            src: 'Users/Jenna/work/slofc/frontend/app/test/images/chair.jpg'
+            src: 'tv.jpg'
         },
         {
             /*xtype: 'panel',
