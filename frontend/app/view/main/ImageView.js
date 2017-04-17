@@ -71,7 +71,7 @@ Ext.define('Fc.view.main.ImageView', {
                     this.up('panel').setTitle('Simple DataView (' + l + ' item' + s + ' selected)');
                 }
             }
-        });
+        };
     	
     	this.callParent(arguments);
     },
