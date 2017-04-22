@@ -52,12 +52,12 @@ Ext.define('Fc.view.main.ImageView', {
         */
 
         var store = Ext.create('Ext.data.Store', {
-                 model: 'User',
+                 model: 'ImageModel',
                  data : [
                     {
                         name: 'chair-img1',
                         shortName: 'img1',
-                        url: '../../test/images/chair.jpg'
+                        url: 'app/test/images/chair.jpg'
                     },
                  ]
         });
@@ -75,16 +75,17 @@ Ext.define('Fc.view.main.ImageView', {
                 '<div class="x-clear"></div>'
             ],
             selectionModel: {
-                mode   : 'MULTI'
+                mode   : 'SIMPLE'
             },
             height: 310,
+            width: 150,
             trackOver: true,
             overItemCls: 'x-item-over',
             itemSelector: 'div.thumb-wrap',
             emptyText: 'No images to display',
             plugins: [
-                Ext.create('Ext.ux.DataView.DragSelector', {}),
-                Ext.create('Ext.ux.DataView.LabelEditor', {dataIndex: 'name'})
+                //Ext.create('Ext.ux.DataView.DragSelector', {}),
+                //Ext.create('Ext.ux.DataView.LabelEditor', {dataIndex: 'name'})
             ],
             prepareData: function(data) {
                 Ext.apply(data, {
@@ -98,7 +99,7 @@ Ext.define('Fc.view.main.ImageView', {
                 selectionchange: function(dv, nodes ){
                     var l = nodes.length,
                         s = l !== 1 ? 's' : '';
-                    this.up('panel').setTitle('Simple DataView (' + l + ' item' + s + ' selected)');
+                    //this.up('panel').setTitle('Simple DataView (' + l + ' item' + s + ' selected)');
                 }
             }
         };
