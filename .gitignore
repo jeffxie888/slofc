@@ -8,3 +8,5 @@ logs/
 /frontend/bootstrap.jsonp
 /frontend/index.js
 /backend/node_modules/
+/frontend/sass/example/bootstrap.json
+/frontend/sass/example/bootstrap.jsonp
