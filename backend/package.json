@@ -4,7 +4,9 @@
   "description": "A user system API starter",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --inspect -e js,md server.js",
+    "nginx": "cd nginx;nginx -p `pwd` -c nginx.conf",
+    "server": "nodemon --inspect -e js,md server.js",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run nginx\"",
     "first-time-setup": "node first-time-setup.js"
   },
   "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
@@ -39,6 +41,7 @@
   },
   "devDependencies": {
     "code": "4.x.x",
+    "concurrently": "^3.4.0",
     "lab": "13.x.x",
     "nodemon": "1.x.x",
     "promptly": "2.x.x",
