@@ -36,31 +36,29 @@ Ext.define('Fc.view.main.ImageView', {
 	        ]
 	    });
 
-        /*
 	    var store = Ext.create('Ext.data.Store', {
 	        model: 'ImageModel',
 	        autoLoad: true,
 	        proxy: {
 	            type: 'ajax',
-	            url: 'get-images.php',
+	            url: '/api/images',
 	            reader: {
 	                type: 'json',
 	                rootProperty: 'images'
 	            }
 	        }
 	    });
-        */
 
-        var store = Ext.create('Ext.data.Store', {
-                 model: 'ImageModel',
-                 data : [
-                    {
-                        name: 'chair-img1',
-                        shortName: 'img1',
-                        url: 'app/test/images/chair.jpg'
-                    },
-                 ]
-        });
+        // var store = Ext.create('Ext.data.Store', {
+        //          model: 'ImageModel',
+        //          data : [
+        //             {
+        //                 name: 'chair-img1',
+        //                 shortName: 'img1',
+        //                 url: 'app/test/images/chair.jpg'
+        //             },
+        //          ]
+        // });
 
 	    this.items = {
 	    	xtype: 'dataview',

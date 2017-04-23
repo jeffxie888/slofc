@@ -62,76 +62,43 @@ const manifest = {
             plugin: './server/mailer'
         },
         {
-            plugin: './server/api/accounts',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/accounts'
         },
         {
-            plugin: './server/api/admin-groups',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/admin-groups'
         },
         {
-            plugin: './server/api/admins',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/admins'
         },
         {
-            plugin: './server/api/auth-attempts',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/auth-attempts'
         },
         {
-            plugin: './server/api/contact',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/contact'
         },
         {
-            plugin: './server/api/index',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/index'
         },
         {
-            plugin: './server/api/login',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/login'
         },
         {
-            plugin: './server/api/logout',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/logout'
         },
         {
-            plugin: './server/api/sessions',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/sessions'
         },
         {
-            plugin: './server/api/signup',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/signup'
         },
         {
-            plugin: './server/api/statuses',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/images'
         },
         {
-            plugin: './server/api/users',
-            options: {
-                routes: { prefix: '/api' }
-            }
+            plugin: './server/api/statuses'
+        },
+        {
+            plugin: './server/api/users'
         }
     ]
 };
