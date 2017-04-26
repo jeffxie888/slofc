@@ -11,13 +11,17 @@ exports.register = function (server, options, next) {
         handler: function (request, reply) {
             reply({
                 images: [{
-                    name: 'chair-couch',
+                    name: 'blue couch',
                     shortName: 'couch',
                     url: '/images/couch.jpg'
                 }, {
-                    name: 'chair-chair',
+                    name: 'Wood chair',
                     shortName: 'chair',
                     url: '/images/chair.jpg'
+                }, {
+                    name: 'Men\'s shirt',
+                    shortName: 'shirt',
+                    url: '/images/shirt.jpg'
                 }]
             });
         }
