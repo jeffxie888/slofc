@@ -59,7 +59,7 @@ Ext.define('Fc.view.main.ImageView', {
             tpl: [
                 '<tpl for=".">',
                     '<div class="thumb-wrap" id="{name:stripTags}">',
-                        '<div class="thumb"><img src="{url}" title="{name:htmlEncode}" height="65" weight="86"></div>',
+                        '<div class="thumb"><img src="{url}" title="{name:htmlEncode}" hspace="50"></div>',
                         '<span class="x-editable"> {shortName:htmlEncode}</span>',
                     '</div>',
                 '</tpl>',
