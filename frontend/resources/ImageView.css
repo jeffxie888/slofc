@@ -13,12 +13,12 @@
 }
 
 #images-view .thumb img{
-    height: 120px;
-    width: 160px;
+    height: 160px;
+    width: 210px;
 }
 #images-view .thumb-wrap{
     float: left;
-    margin: 4px;
+    margin: 50px;
     margin-right: 0;
     padding: 5px;
 }
@@ -26,7 +26,7 @@
     
     display: block;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     width: 86px; /* for ie to ensure that the text is centered */
 }
 

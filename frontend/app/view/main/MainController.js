@@ -9,6 +9,15 @@ Ext.define('Fc.view.main.MainController', {
 
     alias: 'controller.main',
 
+    requires: [
+        'Ext.app.route.Route'
+    ],
+
+    config: {
+        currentPerspective: null
+    },
+
+
     onItemSelected: function (sender, record) {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
     },
@@ -17,5 +26,16 @@ Ext.define('Fc.view.main.MainController', {
         if (choice === 'yes') {
             //
         }
+    },
+
+
+    onMainTabChange: function(tabpanel, newCard, oldCard, eOpts) {
+        var hash = location.hash.substring(1, location.hash.length);
+        var hashArr = hash.split('/');
+        var newHash = ''.concat(
+                        hashArr[0] + "/",
+                        hashArr[1] + "/",
+                        newCard.reference);
+        this.redirectTo(newHash);
     }
 });

@@ -14,8 +14,7 @@ Ext.define('Fc.view.main.Main', {
         'Ext.window.MessageBox',
 
         'Fc.view.main.MainController',
-        'Fc.view.main.MainModel',
-        'Fc.view.main.List'
+        'Fc.view.main.MainModel'
     ],
 
     controller: 'main',
@@ -75,21 +74,30 @@ Ext.define('Fc.view.main.Main', {
         }
     },
 
+    listeners: {
+        tabchange: 'onMainTabChange'
+    },
     items: [{
         title: 'Home',
         iconCls: 'fa-home',
+        reference: 'home',
         items: [{
+            //autoScroll: true,
+            overflowY: 'scroll',
             xtype: 'imageview'
-        }]
+        }],
+        
     }, {
         title: 'Profile',
         iconCls: 'fa-user',
+        reference: 'profile',
         bind: {
             html: '{loremIpsum}'
         }
     }, {
         title: 'About',
         iconCls: 'fa-info-circle',
+        reference: 'about',
         bind:  {
             html: '{aboutus}'
         }

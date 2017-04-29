@@ -12,15 +12,31 @@ exports.register = function (server, options, next) {
             reply({
                 images: [{
                     name: 'blue couch',
-                    shortName: 'couch',
+                    location: '449 N. Chorro Street',
                     url: '/images/couch.jpg'
                 }, {
                     name: 'Wood chair',
-                    shortName: 'chair',
+                    location: '324 N. Chorro Street',
                     url: '/images/chair.jpg'
                 }, {
                     name: 'Men\'s shirt',
-                    shortName: 'shirt',
+                    location: '123 Higuera Street',
+                    url: '/images/shirt.jpg'
+                }, {
+                    name: 'size 10 dress shoes',
+                    location: '1230 Monte Vista Place',
+                    url: '/images/sheos.jpg'
+                }, {
+                    name: 'Desk',
+                    location: '3385 Ivan Way',
+                    url: '/images/desk.jpeg'
+                }, {
+                    name: 'Men\'s shirt',
+                    location: '888 Apple Way',
+                    url: '/images/shirt.jpg'
+                }, {
+                    name: 'Men\'s shirt',
+                    location: '111 Crazy Lane',
                     url: '/images/shirt.jpg'
                 }]
             });

@@ -8,6 +8,8 @@ Ext.define('Fc.Application', {
     
     name: 'Fc',
 
+    //defaultToken : 'home',
+
     stores: [
         // TODO: add global / shared stores here
     ],
