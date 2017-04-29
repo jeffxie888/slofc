@@ -27,7 +27,7 @@
     display: block;
     overflow: hidden;
     text-align: left;
-    width: 86px; /* for ie to ensure that the text is centered */
+    width: 140px; /* for ie to ensure that the text is centered */
 }
 
 #images-view .x-item-over{
@@ -73,4 +73,9 @@
 }
 .x-editable {
     color: #000;
+}
+
+.x-panel-body {
+    overflow: auto;
+    position: relative;
 }

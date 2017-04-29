@@ -82,8 +82,8 @@ Ext.define('Fc.view.main.Main', {
         iconCls: 'fa-home',
         reference: 'home',
         items: [{
-            //autoScroll: true,
-            overflowY: 'scroll',
+            autoScroll: true,
+            //overflowY: 'scroll',
             xtype: 'imageview'
         }],
         

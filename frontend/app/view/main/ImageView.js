@@ -69,7 +69,7 @@ Ext.define('Fc.view.main.ImageView', {
                 mode   : 'SINGLE',
 
             },
-            height: 300,
+            //height: 500,
             //width: 150,
             trackOver: true,
             overItemCls: 'x-item-over',
