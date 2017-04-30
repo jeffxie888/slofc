@@ -31,7 +31,8 @@ Ext.define('Fc.view.main.ImageView', {
 	        fields: [
 	           {name: 'name'},
 	           {name: 'url'},
-               {name: 'location'}
+               {name: 'location'},
+               {name: 'time', type: 'date', dateFormat: 'm/d/Y'}
 	           //{name: 'size', type: 'float'}
 	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
 	        ]
@@ -59,8 +60,9 @@ Ext.define('Fc.view.main.ImageView', {
                 '<tpl for=".">',
                     '<div class="thumb-wrap" id="{name:stripTags}">',
                         '<div class="thumb"><img src="{url}" title="{name:htmlEncode}"></div>',
-                        '<span class="x-editable"> {shortName:htmlEncode}</span>',
-                        '<span class="x-editable"> <div style="color: blue">{address:htmlEncode}</div></span>',
+                        '<b>{shortName:htmlEncode}</b>',
+                        '<div style="color: green">{address:htmlEncode}</div>',
+                        '{postTime:htmlEncode}',
                     '</div>',
                 '</tpl>',
                 '<div class="x-clear"></div>'
@@ -82,7 +84,8 @@ Ext.define('Fc.view.main.ImageView', {
             prepareData: function(data) {
                 Ext.apply(data, {
                     shortName: Ext.util.Format.ellipsis(data.name, 25),
-                    address: Ext.util.Format.ellipsis(data.location, 30)
+                    address: Ext.util.Format.ellipsis(data.location, 30),
+                    postTime: Ext.util.Format.date(data.time, "m/d/Y")
                     //sizeString: Ext.util.Format.fileSize(data.size),
                     //dateString: Ext.util.Format.date(data.lastmod, "m/d/Y g:i a")
                 });

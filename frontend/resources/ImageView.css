@@ -1,6 +1,7 @@
 #images-view .x-panel-body{
     background: white;
     font: 11px Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 #images-view .thumb{
     background: #dddddd;

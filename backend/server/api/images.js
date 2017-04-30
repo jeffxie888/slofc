@@ -11,19 +11,20 @@ exports.register = function (server, options, next) {
         handler: function (request, reply) {
             reply({
                 images: [{
-                    name: 'blue couch',
+                    name: 'Blue Couch',
                     location: '449 N. Chorro Street',
-                    url: '/images/couch.jpg'
+                    url: '/images/couch.jpg',
+                    time: '12/15/1988'
                 }, {
-                    name: 'Wood chair',
+                    name: 'Wood Chair',
                     location: '324 N. Chorro Street',
                     url: '/images/chair.jpg'
                 }, {
-                    name: 'Men\'s shirt',
+                    name: 'Men\'s Shirt',
                     location: '123 Higuera Street',
                     url: '/images/shirt.jpg'
                 }, {
-                    name: 'size 10 dress shoes',
+                    name: 'Size 10 Dress Shoes',
                     location: '1230 Monte Vista Place',
                     url: '/images/sheos.jpg'
                 }, {
@@ -31,11 +32,11 @@ exports.register = function (server, options, next) {
                     location: '3385 Ivan Way',
                     url: '/images/desk.jpeg'
                 }, {
-                    name: 'Men\'s shirt',
+                    name: 'Men\'s Shirt',
                     location: '888 Apple Way',
                     url: '/images/shirt.jpg'
                 }, {
-                    name: 'Men\'s shirt',
+                    name: 'Men\'s Shirt',
                     location: '111 Crazy Lane',
                     url: '/images/shirt.jpg'
                 }]
