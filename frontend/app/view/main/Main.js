@@ -83,7 +83,6 @@ Ext.define('Fc.view.main.Main', {
         reference: 'home',
         items: [{
             autoScroll: true,
-            //overflowY: 'scroll',
             xtype: 'imageview'
         }],
         
@@ -91,9 +90,10 @@ Ext.define('Fc.view.main.Main', {
         title: 'Profile',
         iconCls: 'fa-user',
         reference: 'profile',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        items: [{
+            autoScroll: true,
+            xtype: 'profileview'
+        }]
     }, {
         title: 'About',
         iconCls: 'fa-info-circle',
