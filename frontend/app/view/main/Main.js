@@ -8,6 +8,7 @@
 Ext.define('Fc.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
+    plugins: 'viewport',
 
     requires: [
         'Ext.plugin.Viewport',
@@ -16,6 +17,7 @@ Ext.define('Fc.view.main.Main', {
         'Fc.view.main.MainController',
         'Fc.view.main.MainModel'
     ],
+
 
     controller: 'main',
     viewModel: 'main',
@@ -36,8 +38,16 @@ Ext.define('Fc.view.main.Main', {
             },
             flex: 0
         },
-        iconCls: 'fa-recycle'
+        iconCls: 'fa-recycle',
+        items: [{
+            xtype: 'button',
+            text: 'Logout',
+            margin: '10 0',
+            handler: 'onClickButton'
+        }]
     },
+
+    
 
     tabBar: {
         flex: 1,

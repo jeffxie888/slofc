@@ -273,6 +273,9 @@
         }, 
         {
             "path": "resources/ImageView.css"
+        },
+        {
+            "path": "resources/loginWindow.css"
         }
     ],
 

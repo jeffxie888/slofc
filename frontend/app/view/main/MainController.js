@@ -37,5 +37,18 @@ Ext.define('Fc.view.main.MainController', {
                         hashArr[1] + "/",
                         newCard.reference);
         this.redirectTo(newHash);
+    },
+
+    onClickButton: function () {
+        // Remove the localStorage key/value
+        localStorage.removeItem('test');
+
+        // Remove Main View
+        this.getView().destroy();
+
+        // Add the Login Window
+        Ext.create({
+            xtype: 'login'
+        });
     }
 });

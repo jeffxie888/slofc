@@ -1,0 +1,1250 @@
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:273 */
+.x-window-header-default {
+    font-size: 16px;
+    border-color: #006633;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:278 */
+.x-window-header-default .x-tool-img {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:291 */
+.x-window-header-default-horizontal .x-window-header-default-tab-bar {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:298 */
+.x-window-header-default-vertical .x-window-header-default-tab-bar {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:306 */
+.x-rtl.x-window-header-default-vertical .x-window-header-default-tab-bar {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:314 */
+.x-window-header-title-default {
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    line-height: 20px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:323 */
+.x-window-header-title-default > .x-title-text-default {
+    padding: 0;
+    text-transform: none;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:370 */
+.x-window-header-title-default > .x-title-icon-wrap-default.x-title-icon-top {
+    height: 24px;
+    padding-bottom: 8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:375 */
+.x-window-header-title-default > .x-title-icon-wrap-default.x-title-icon-right {
+    width: 24px;
+    padding-left: 8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:380 */
+.x-window-header-title-default > .x-title-icon-wrap-default.x-title-icon-right.x-rtl {
+    padding-left: 0;
+    padding-right: 8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:387 */
+.x-window-header-title-default > .x-title-icon-wrap-default.x-title-icon-bottom {
+    height: 24px;
+    padding-top: 8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:392 */
+.x-window-header-title-default > .x-title-icon-wrap-default.x-title-icon-left {
+    width: 24px;
+    padding-right: 8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:397 */
+.x-window-header-title-default > .x-title-icon-wrap-default.x-title-icon-left.x-rtl {
+    padding-right: 0;
+    padding-left: 8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:404 */
+.x-window-header-title-default > .x-title-icon-wrap-default > .x-title-icon-default {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    color: #f0f0f0;
+    background-position: center center;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:424 */
+.x-ie8 .x-window-header-title-default > .x-title-icon-wrap-default > .x-title-icon-default.x-title-glyph {
+    color: #f0f0f0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-top {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 14px 10px 14px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-top-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-top-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-10-14-10-14;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-top-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-top-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-top-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-top-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-top-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-top-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-top-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-top-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-top-tr,
+.x-window-header-default-top-br,
+.x-window-header-default-top-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-top-tl,
+.x-window-header-default-top-bl,
+.x-window-header-default-top-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-top-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-top-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-top-tl,
+.x-window-header-default-top-bl,
+.x-window-header-default-top-tr,
+.x-window-header-default-top-br,
+.x-window-header-default-top-tc,
+.x-window-header-default-top-bc,
+.x-window-header-default-top-ml,
+.x-window-header-default-top-mr {
+    background-image: url(images/window-header/window-header-default-top-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-top-ml,
+.x-window-header-default-top-mr {
+    background-image: url(images/window-header/window-header-default-top-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-top-mc {
+    padding: 10px 14px 10px 14px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-top-corners.gif), sides:url(images/window-header/window-header-default-top-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-right {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 14px 10px 14px 10px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-right-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-right-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-14-10-14-10;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-right-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-right-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-right-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-right-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-right-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-right-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-right-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-right-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-right-tr,
+.x-window-header-default-right-br,
+.x-window-header-default-right-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-right-tl,
+.x-window-header-default-right-bl,
+.x-window-header-default-right-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-right-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-right-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-right-tl,
+.x-window-header-default-right-bl,
+.x-window-header-default-right-tr,
+.x-window-header-default-right-br,
+.x-window-header-default-right-tc,
+.x-window-header-default-right-bc,
+.x-window-header-default-right-ml,
+.x-window-header-default-right-mr {
+    background-image: url(images/window-header/window-header-default-right-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-window-header-default-right-tl,
+.x-rtl.x-window-header-default-right-ml,
+.x-rtl.x-window-header-default-right-bl,
+.x-rtl.x-window-header-default-right-tr,
+.x-rtl.x-window-header-default-right-mr,
+.x-rtl.x-window-header-default-right-br {
+    background-image: url(images/window-header/window-header-default-right-corners-rtl.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-right-ml,
+.x-window-header-default-right-mr {
+    background-image: url(images/window-header/window-header-default-right-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-right-mc {
+    padding: 14px 10px 14px 10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-right-corners.gif), corners-rtl:url(images/window-header/window-header-default-right-corners-rtl.gif), sides:url(images/window-header/window-header-default-right-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-bottom {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 14px 10px 14px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-bottom-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-bottom-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-10-14-10-14;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-bottom-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-bottom-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-bottom-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-bottom-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-bottom-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-bottom-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-bottom-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-bottom-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-bottom-tr,
+.x-window-header-default-bottom-br,
+.x-window-header-default-bottom-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-bottom-tl,
+.x-window-header-default-bottom-bl,
+.x-window-header-default-bottom-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-bottom-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-bottom-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-bottom-tl,
+.x-window-header-default-bottom-bl,
+.x-window-header-default-bottom-tr,
+.x-window-header-default-bottom-br,
+.x-window-header-default-bottom-tc,
+.x-window-header-default-bottom-bc,
+.x-window-header-default-bottom-ml,
+.x-window-header-default-bottom-mr {
+    background-image: url(images/window-header/window-header-default-bottom-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-bottom-ml,
+.x-window-header-default-bottom-mr {
+    background-image: url(images/window-header/window-header-default-bottom-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-bottom-mc {
+    padding: 10px 14px 10px 14px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-bottom-corners.gif), sides:url(images/window-header/window-header-default-bottom-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-left {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 14px 10px 14px 10px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-left-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-left-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-14-10-14-10;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-left-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-left-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-left-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-left-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-left-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-left-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-left-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-left-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-left-tr,
+.x-window-header-default-left-br,
+.x-window-header-default-left-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-left-tl,
+.x-window-header-default-left-bl,
+.x-window-header-default-left-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-left-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-left-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-left-tl,
+.x-window-header-default-left-bl,
+.x-window-header-default-left-tr,
+.x-window-header-default-left-br,
+.x-window-header-default-left-tc,
+.x-window-header-default-left-bc,
+.x-window-header-default-left-ml,
+.x-window-header-default-left-mr {
+    background-image: url(images/window-header/window-header-default-left-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-window-header-default-left-tl,
+.x-rtl.x-window-header-default-left-ml,
+.x-rtl.x-window-header-default-left-bl,
+.x-rtl.x-window-header-default-left-tr,
+.x-rtl.x-window-header-default-left-mr,
+.x-rtl.x-window-header-default-left-br {
+    background-image: url(images/window-header/window-header-default-left-corners-rtl.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-left-ml,
+.x-window-header-default-left-mr {
+    background-image: url(images/window-header/window-header-default-left-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-left-mc {
+    padding: 14px 10px 14px 10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-left-corners.gif), corners-rtl:url(images/window-header/window-header-default-left-corners-rtl.gif), sides:url(images/window-header/window-header-default-left-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-collapsed-top {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 14px 10px 14px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-collapsed-top-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-collapsed-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-collapsed-top-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-10-14-10-14;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-collapsed-top-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-collapsed-top-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-collapsed-top-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-collapsed-top-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-collapsed-top-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-collapsed-top-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-collapsed-top-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-collapsed-top-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-collapsed-top-tr,
+.x-window-header-default-collapsed-top-br,
+.x-window-header-default-collapsed-top-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-collapsed-top-tl,
+.x-window-header-default-collapsed-top-bl,
+.x-window-header-default-collapsed-top-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-collapsed-top-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-collapsed-top-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-collapsed-top-tl,
+.x-window-header-default-collapsed-top-bl,
+.x-window-header-default-collapsed-top-tr,
+.x-window-header-default-collapsed-top-br,
+.x-window-header-default-collapsed-top-tc,
+.x-window-header-default-collapsed-top-bc,
+.x-window-header-default-collapsed-top-ml,
+.x-window-header-default-collapsed-top-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-top-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-collapsed-top-ml,
+.x-window-header-default-collapsed-top-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-top-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-collapsed-top-mc {
+    padding: 10px 14px 10px 14px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-collapsed-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-collapsed-top-corners.gif), sides:url(images/window-header/window-header-default-collapsed-top-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-collapsed-right {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 14px 10px 14px 10px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-collapsed-right-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-collapsed-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-collapsed-right-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-14-10-14-10;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-collapsed-right-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-collapsed-right-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-collapsed-right-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-collapsed-right-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-collapsed-right-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-collapsed-right-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-collapsed-right-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-collapsed-right-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-collapsed-right-tr,
+.x-window-header-default-collapsed-right-br,
+.x-window-header-default-collapsed-right-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-collapsed-right-tl,
+.x-window-header-default-collapsed-right-bl,
+.x-window-header-default-collapsed-right-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-collapsed-right-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-collapsed-right-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-collapsed-right-tl,
+.x-window-header-default-collapsed-right-bl,
+.x-window-header-default-collapsed-right-tr,
+.x-window-header-default-collapsed-right-br,
+.x-window-header-default-collapsed-right-tc,
+.x-window-header-default-collapsed-right-bc,
+.x-window-header-default-collapsed-right-ml,
+.x-window-header-default-collapsed-right-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-right-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-window-header-default-collapsed-right-tl,
+.x-rtl.x-window-header-default-collapsed-right-ml,
+.x-rtl.x-window-header-default-collapsed-right-bl,
+.x-rtl.x-window-header-default-collapsed-right-tr,
+.x-rtl.x-window-header-default-collapsed-right-mr,
+.x-rtl.x-window-header-default-collapsed-right-br {
+    background-image: url(images/window-header/window-header-default-collapsed-right-corners-rtl.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-collapsed-right-ml,
+.x-window-header-default-collapsed-right-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-right-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-collapsed-right-mc {
+    padding: 14px 10px 14px 10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-collapsed-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-collapsed-right-corners.gif), corners-rtl:url(images/window-header/window-header-default-collapsed-right-corners-rtl.gif), sides:url(images/window-header/window-header-default-collapsed-right-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-collapsed-bottom {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 14px 10px 14px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-collapsed-bottom-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-collapsed-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-collapsed-bottom-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-10-14-10-14;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-collapsed-bottom-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-collapsed-bottom-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-collapsed-bottom-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-collapsed-bottom-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-collapsed-bottom-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-collapsed-bottom-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-collapsed-bottom-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-collapsed-bottom-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-collapsed-bottom-tr,
+.x-window-header-default-collapsed-bottom-br,
+.x-window-header-default-collapsed-bottom-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-collapsed-bottom-tl,
+.x-window-header-default-collapsed-bottom-bl,
+.x-window-header-default-collapsed-bottom-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-collapsed-bottom-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-collapsed-bottom-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-collapsed-bottom-tl,
+.x-window-header-default-collapsed-bottom-bl,
+.x-window-header-default-collapsed-bottom-tr,
+.x-window-header-default-collapsed-bottom-br,
+.x-window-header-default-collapsed-bottom-tc,
+.x-window-header-default-collapsed-bottom-bc,
+.x-window-header-default-collapsed-bottom-ml,
+.x-window-header-default-collapsed-bottom-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-bottom-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-collapsed-bottom-ml,
+.x-window-header-default-collapsed-bottom-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-bottom-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-collapsed-bottom-mc {
+    padding: 10px 14px 10px 14px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-collapsed-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-collapsed-bottom-corners.gif), sides:url(images/window-header/window-header-default-collapsed-bottom-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-window-header-default-collapsed-left {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 14px 10px 14px 10px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-window-header-default-collapsed-left-mc {
+    background-color: #006633;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-window-header-default-collapsed-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-window-header-default-collapsed-left-frameInfo {
+    font-family: dh-2-2-2-2-2-2-2-2-14-10-14-10;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-window-header-default-collapsed-left-tl {
+    background-position: 0 -4px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-window-header-default-collapsed-left-tr {
+    background-position: right -6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-window-header-default-collapsed-left-bl {
+    background-position: 0 -8px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-window-header-default-collapsed-left-br {
+    background-position: right -10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-window-header-default-collapsed-left-ml {
+    background-position: 0 top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-window-header-default-collapsed-left-mr {
+    background-position: right top;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-window-header-default-collapsed-left-tc {
+    background-position: 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-window-header-default-collapsed-left-bc {
+    background-position: 0 -2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-window-header-default-collapsed-left-tr,
+.x-window-header-default-collapsed-left-br,
+.x-window-header-default-collapsed-left-mr {
+    padding-right: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-window-header-default-collapsed-left-tl,
+.x-window-header-default-collapsed-left-bl,
+.x-window-header-default-collapsed-left-ml {
+    padding-left: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-window-header-default-collapsed-left-tc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-window-header-default-collapsed-left-bc {
+    height: 2px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-window-header-default-collapsed-left-tl,
+.x-window-header-default-collapsed-left-bl,
+.x-window-header-default-collapsed-left-tr,
+.x-window-header-default-collapsed-left-br,
+.x-window-header-default-collapsed-left-tc,
+.x-window-header-default-collapsed-left-bc,
+.x-window-header-default-collapsed-left-ml,
+.x-window-header-default-collapsed-left-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-left-corners.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-window-header-default-collapsed-left-tl,
+.x-rtl.x-window-header-default-collapsed-left-ml,
+.x-rtl.x-window-header-default-collapsed-left-bl,
+.x-rtl.x-window-header-default-collapsed-left-tr,
+.x-rtl.x-window-header-default-collapsed-left-mr,
+.x-rtl.x-window-header-default-collapsed-left-br {
+    background-image: url(images/window-header/window-header-default-collapsed-left-corners-rtl.gif);
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-window-header-default-collapsed-left-ml,
+.x-window-header-default-collapsed-left-mr {
+    background-image: url(images/window-header/window-header-default-collapsed-left-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-window-header-default-collapsed-left-mc {
+    padding: 14px 10px 14px 10px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-window-header-default-collapsed-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/window-header/window-header-default-collapsed-left-corners.gif), corners-rtl:url(images/window-header/window-header-default-collapsed-left-corners-rtl.gif), sides:url(images/window-header/window-header-default-collapsed-left-sides.gif)" !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:549 */
+.x-window-header-default .x-window-header-icon {
+    width: 16px;
+    height: 16px;
+    color: #f0f0f0;
+    font-size: 16px;
+    line-height: 16px;
+    background-position: center center;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:558 */
+.x-window-header-default .x-window-header-glyph {
+    color: #f0f0f0;
+    font-size: 16px;
+    line-height: 16px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:575 */
+.x-ie8 .x-window-header-default .x-window-header-glyph {
+    color: #f0f0f0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:584 */
+.x-window-header-default-horizontal .x-tool-after-title {
+    margin: 0 0 0 6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:589 */
+.x-window-header-default-horizontal .x-rtl.x-tool-after-title {
+    margin: 0 6px 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:594 */
+.x-window-header-default-horizontal .x-tool-before-title {
+    margin: 0 6px 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:599 */
+.x-window-header-default-horizontal .x-rtl.x-tool-before-title {
+    margin: 0 0 0 6px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:606 */
+.x-window-header-default-vertical .x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:611 */
+.x-window-header-default-vertical .x-rtl.x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:616 */
+.x-window-header-default-vertical .x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:621 */
+.x-window-header-default-vertical .x-rtl.x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:628 */
+.x-window-header-default .x-tool-focus {
+    outline: 1px solid #fff;
+    outline-offset: 1px;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:64 */
+.x-ie .x-window-header-default .x-tool-focus,
+.x-ie10p .x-window-header-default .x-tool-focus,
+.x-edge .x-window-header-default .x-tool-focus {
+    outline: none;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:40 */
+.x-ie .x-window-header-default .x-tool-focus:after,
+.x-ie10p .x-window-header-default .x-tool-focus:after,
+.x-edge .x-window-header-default .x-tool-focus:after {
+    position: absolute;
+    content: ' ';
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid #fff;
+    pointer-events: none;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:641 */
+.x-window-header-default {
+    border-width: 2px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:651 */
+.x-nbr .x-window-default-collapsed .x-window-header {
+    border-width: 0 !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
+.x-window-default-outer-border-l {
+    border-left-color: #006633 !important;
+    border-left-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
+.x-window-default-outer-border-b {
+    border-bottom-color: #006633 !important;
+    border-bottom-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
+.x-window-default-outer-border-bl {
+    border-bottom-color: #006633 !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #006633 !important;
+    border-left-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
+.x-window-default-outer-border-r {
+    border-right-color: #006633 !important;
+    border-right-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
+.x-window-default-outer-border-rl {
+    border-right-color: #006633 !important;
+    border-right-width: 1px !important;
+    border-left-color: #006633 !important;
+    border-left-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
+.x-window-default-outer-border-rb {
+    border-right-color: #006633 !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #006633 !important;
+    border-bottom-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
+.x-window-default-outer-border-rbl {
+    border-right-color: #006633 !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #006633 !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #006633 !important;
+    border-left-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
+.x-window-default-outer-border-t {
+    border-top-color: #006633 !important;
+    border-top-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
+.x-window-default-outer-border-tl {
+    border-top-color: #006633 !important;
+    border-top-width: 1px !important;
+    border-left-color: #006633 !important;
+    border-left-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
+.x-window-default-outer-border-tb {
+    border-top-color: #006633 !important;
+    border-top-width: 1px !important;
+    border-bottom-color: #006633 !important;
+    border-bottom-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
+.x-window-default-outer-border-tbl {
+    border-top-color: #006633 !important;
+    border-top-width: 1px !important;
+    border-bottom-color: #006633 !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #006633 !important;
+    border-left-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
+.x-window-default-outer-border-tr {
+    border-top-color: #006633 !important;
+    border-top-width: 1px !important;
+    border-right-color: #006633 !important;
+    border-right-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
+.x-window-default-outer-border-trl {
+    border-top-color: #006633 !important;
+    border-top-width: 1px !important;
+    border-right-color: #006633 !important;
+    border-right-width: 1px !important;
+    border-left-color: #006633 !important;
+    border-left-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
+.x-window-default-outer-border-trb {
+    border-top-color: #006633 !important;
+    border-top-width: 1px !important;
+    border-right-color: #006633 !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #006633 !important;
+    border-bottom-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
+.x-window-default-outer-border-trbl {
+    border-color: #006633 !important;
+    border-width: 1px !important;
+}
+/* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:717 */
+.x-window-body-plain {
+    background-color: transparent;
+}
