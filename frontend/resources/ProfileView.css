@@ -1,0 +1,40 @@
+.x-tab-bar-default {
+    background-color: #FFF;
+    outline: 1px solid #006633;
+    outline-offset: -8px;
+    height: 51px;
+}
+
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #FFF;
+}
+.x-tab-focus.x-tab-default {
+    /*border-color: transparent;*/
+    background-color: #006633;
+    outline: 1px solid #006633;
+    outline-offset: -3px;
+}
+
+.x-tab-inner-default {
+
+}
+
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2698 */
+.x-tab-focus.x-tab-active.x-tab-default {
+    border-color: #fff;
+    background-color: #006633;
+}
+
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2587 */
+.x-tab.x-tab-active.x-tab-default {
+    border-color: #fff;
+    background-color: #006633;
+}
+
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2127 */
+.x-tab-inner-default {
+    font: 400 13px/20px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #006633;
+    max-width: 100%;
+}
+

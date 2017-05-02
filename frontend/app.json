@@ -276,6 +276,9 @@
         },
         {
             "path": "resources/loginWindow.css"
+        },
+        {
+            "path": "resources/ProfileView.css"
         }
     ],
 

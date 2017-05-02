@@ -26,6 +26,7 @@ Ext.define('Fc.view.main.ImageView', {
      * @return {void}
      */
     initComponent: function() {
+        if(typeof(ImageModel) == 'undefined'){
     	ImageModel = Ext.define('ImageModel', {
 	        extend: 'Ext.data.Model',
 	        fields: [
@@ -36,7 +37,7 @@ Ext.define('Fc.view.main.ImageView', {
 	           //{name: 'size', type: 'float'}
 	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
 	        ]
-	    });
+	    })};
 
 	    var store = Ext.create('Ext.data.Store', {
 	        model: 'ImageModel',

@@ -1,5 +1,5 @@
 Ext.define('Fc.view.main.ProfileView', {
-    extend: 'Ext.tab.Panel',
+    extend: 'Ext.panel.Panel',
     xtype: 'profileview',
     requires: [
         'Ext.data.*',
@@ -7,13 +7,10 @@ Ext.define('Fc.view.main.ProfileView', {
         'Ext.view.View',
         'Ext.app.route.Route'
     ],
-    
-    items: [{
-        title: 'panel 1',
-        html: 'panel 1'
-    }],
 
+    // New post button
     tbar: [
+        '->', // Right aligns it
         {
             xtype: 'button',
             text: '<div style="color: white">New Post</div>',
@@ -21,8 +18,37 @@ Ext.define('Fc.view.main.ProfileView', {
                 'background-color': '#006633'
             }
         }
-    ]
-
+    ],
+    
+    items: [{
+        xtype: 'tabpanel',
+        fullscreen: true,
+        style: {
+            'width': '369px',
+            'height': '400px'
+        },
+        items: [
+            {
+                xtype: 'panel',
+                title: 'Recent Posts',
+                html: 'hi',
+            },
+            {
+                xtype: 'panel',
+                title: 'Your Favorites',
+                html: 'yo'
+            },
+            {
+                xtype: 'panel',
+                title: 'Wishlist',
+                html: 'hi',
+            },
+            {
+                xtype: 'panel',
+                title: 'Settings',
+                html: 'hi',
+            }]
+    }],
 });
 
 
