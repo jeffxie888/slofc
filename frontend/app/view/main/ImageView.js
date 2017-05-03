@@ -27,17 +27,17 @@ Ext.define('Fc.view.main.ImageView', {
      */
     initComponent: function() {
         if(typeof(ImageModel) == 'undefined'){
-    	ImageModel = Ext.define('ImageModel', {
-	        extend: 'Ext.data.Model',
-	        fields: [
-	           {name: 'name'},
-	           {name: 'url'},
-               {name: 'location'},
-               {name: 'time', type: 'date', dateFormat: 'm/d/Y'}
-	           //{name: 'size', type: 'float'}
-	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
-	        ]
-	    })};
+        	ImageModel = Ext.define('ImageModel', {
+    	        extend: 'Ext.data.Model',
+    	        fields: [
+    	           {name: 'name'},
+    	           {name: 'url'},
+                   {name: 'location'},
+                   {name: 'time', type: 'date', dateFormat: 'm/d/Y'}
+    	           //{name: 'size', type: 'float'}
+    	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
+    	        ]
+    	    })};
 
 	    var store = Ext.create('Ext.data.Store', {
 	        model: 'ImageModel',
