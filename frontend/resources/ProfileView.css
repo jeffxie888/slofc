@@ -1,8 +1,8 @@
 .x-tab-bar-default {
     background-color: #FFF;
     outline: 1px solid #006633;
-    outline-offset: -8px;
-    height: 51px;
+    outline-offset: -8px; /* Gets box in perfect position */
+    height: 51px; /* Gets box perfect height */
 }
 
 .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
