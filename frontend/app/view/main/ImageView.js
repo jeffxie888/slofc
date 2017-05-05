@@ -6,8 +6,11 @@ Ext.define('Fc.view.main.ImageView', {
         'Ext.data.*',
         'Ext.util.*',
         'Ext.view.View',
-        'Ext.app.route.Route'
+        'Ext.app.route.Route',
+
+        'Fc.view.main.MainController'
     ],
+    controller: 'main',
     // This is the search bar
     tbar: [
         {xtype: 'textfield', flex: 1.0 },
@@ -17,6 +20,9 @@ Ext.define('Fc.view.main.ImageView', {
             text: '<div style="color: white">New Post</div>',
             style: {
                 'background-color': '#006633'
+            },
+            listeners: {
+                click: 'onAboutClick'
             }
         }
     ],
@@ -27,17 +33,18 @@ Ext.define('Fc.view.main.ImageView', {
      */
     initComponent: function() {
         if(typeof(ImageModel) == 'undefined'){
-    	ImageModel = Ext.define('ImageModel', {
-	        extend: 'Ext.data.Model',
-	        fields: [
-	           {name: 'name'},
-	           {name: 'url'},
-               {name: 'location'},
-               {name: 'time', type: 'date', dateFormat: 'm/d/Y'}
-	           //{name: 'size', type: 'float'}
-	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
-	        ]
-	    })};
+        	ImageModel = Ext.define('ImageModel', {
+    	        extend: 'Ext.data.Model',
+    	        fields: [
+    	           {name: 'name'},
+    	           {name: 'url'},
+                   {name: 'location'},
+                   {name: 'time', type: 'date', dateFormat: 'm/d/Y'}
+    	           //{name: 'size', type: 'float'}
+    	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
+    	        ]
+    	    })
+        };
 
 	    var store = Ext.create('Ext.data.Store', {
 	        model: 'ImageModel',
@@ -97,7 +104,8 @@ Ext.define('Fc.view.main.ImageView', {
                     var l = nodes.length,
                         s = l !== 1 ? 's' : '';
                     //this.up('panel').setTitle('Simple DataView (' + l + ' item' + s + ' selected)');
-                }
+                },
+                click: 'onAboutClick'
             }
         };
     	

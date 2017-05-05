@@ -108,8 +108,16 @@ Ext.define('Fc.view.main.Main', {
         title: 'About',
         iconCls: 'fa-info-circle',
         reference: 'about',
-        bind:  {
+        /*bind:  {
             html: '{aboutus}'
+        }*/
+
+        /*
+        tabConfig: {
+            listeners: {
+                click: 'onAboutClick'
+            }
         }
+        */
     }]
 });

@@ -1,3 +1,20 @@
+/* Login Button */
+.x-btn.x-btn-disabled.x-btn-default-small {
+    background-color: #006633;
+}
+
+/* Login Button */
+.x-btn-default-small {
+    border-color: #006633;
+    background-color: #006633;
+}
+
+/* Login Button */
+.x-btn-over.x-btn-default-small {
+    border-color: #006633;
+    background-color: #006633;
+}
+
 /* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:273 */
 .x-window-header-default {
     font-size: 16px;
@@ -1137,6 +1154,11 @@
 .x-window-header-default {
     border-width: 2px !important;
 }
+
+.x-window-default {
+    border-color: #006633;
+}
+
 /* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:651 */
 .x-nbr .x-window-default-collapsed .x-window-header {
     border-width: 0 !important;

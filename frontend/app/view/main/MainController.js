@@ -50,5 +50,19 @@ Ext.define('Fc.view.main.MainController', {
         Ext.create({
             xtype: 'login'
         });
+    },
+
+    
+    onAboutClick: function () {
+
+        // Remove Main View
+        this.getView().destroy();
+
+        // Add the Login Window
+        Ext.create({
+            xtype: 'login'
+        });
     }
+    
+
 });

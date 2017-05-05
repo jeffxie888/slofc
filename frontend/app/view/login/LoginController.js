@@ -19,4 +19,5 @@ Ext.define('Fc.view.login.LoginController', {
         });
 
     }
+
 });
