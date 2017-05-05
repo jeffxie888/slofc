@@ -279,6 +279,9 @@
         },
         {
             "path": "resources/ProfileView.css"
+        },
+        {
+            "path": "resources/MainTabs.css"
         }
     ],
 

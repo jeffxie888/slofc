@@ -10,3 +10,4 @@ logs/
 /backend/node_modules/
 /frontend/sass/example/bootstrap.json
 /frontend/sass/example/bootstrap.jsonp
+.DS_Store

@@ -46,6 +46,7 @@ Ext.define('Fc.view.main.ImageView', {
     	    })
         };
 
+
 	    var store = Ext.create('Ext.data.Store', {
 	        model: 'ImageModel',
 	        autoLoad: true,

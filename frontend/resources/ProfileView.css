@@ -34,3 +34,10 @@
     max-width: 100%;
 }
 
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2224 */
+.x-tab-focus.x-tab-navigation {
+    border-color: transparent;
+    background-color: transparent;
+    /*outline: 1px solid #5fa2dd;
+    outline-offset: -3px;*/
+}
