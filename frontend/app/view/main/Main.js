@@ -38,7 +38,7 @@ Ext.define('Fc.view.main.Main', {
             },
             flex: 0
         },
-        iconCls: 'fa-recycle',
+        iconCls: 'fa-recycle'/*,
         items: [{
             xtype: 'button',
             text: 'Logout',
@@ -48,7 +48,7 @@ Ext.define('Fc.view.main.Main', {
                 'width': '80px',
                 'background-color': 'red'
             }
-        }]
+        }]*/
 
     },
 
