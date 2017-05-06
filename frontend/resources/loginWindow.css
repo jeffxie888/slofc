@@ -36,6 +36,14 @@
 
 }
 
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/button/Button.scss:851 */
+.x-btn.x-btn-menu-active.x-btn-default-small,
+.x-btn.x-btn-pressed.x-btn-default-small {
+    border-color: #006633;
+    background-image: none;
+    background-color: #006633;
+}
+
 
 /* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:273 */
 .x-window-header-default {

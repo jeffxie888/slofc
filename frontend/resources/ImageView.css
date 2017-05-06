@@ -80,3 +80,19 @@
     overflow: auto;
     position: relative;
 }
+
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/button/Button.scss:823 */
+.x-btn-focus.x-btn-over.x-btn-default-toolbar-small {
+    -webkit-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
+    -moz-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
+    box-shadow: #006633 0 1px 0px 0 inset, #006633 0 -1px 0px 0 inset, #006633 -1px 0 0px 0 inset, #006633 1px 0 0px 0 inset;
+}
+
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/button/Button.scss:738 */
+.x-btn-focus.x-btn-default-toolbar-small {
+    background-image: none;
+    background-color: #f6f6f6;
+    -webkit-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
+    -moz-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
+    box-shadow: #006633 0 1px 0px 0 inset, #006633 0 -1px 0px 0 inset, #006633 -1px 0 0px 0 inset, #006633 1px 0 0px 0 inset;
+}
