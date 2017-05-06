@@ -24,6 +24,19 @@
     /* background-color: #ececec; */
 }
 
+.x-body {
+    color: #404040;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    background: url(https://slochamber.org/wp-content/uploads/2014/10/CalPolyPeaks_4148.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
 /* /Users/jeffreyxie/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/window/Window.scss:273 */
 .x-window-header-default {
     font-size: 16px;

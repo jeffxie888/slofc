@@ -10,7 +10,7 @@ Ext.define('Fc.view.login.Login', {
     controller: 'login',
     bodyPadding: 10,
     //title: 'SLO FreeCycle',
-    title: '<div style="text-align:center;">SLO FreeCycle</div>',
+    title: '<div style="text-align:center;">SLO Freecycle</div>',
     closable: false,
     autoShow: true,
     width: '25%',
