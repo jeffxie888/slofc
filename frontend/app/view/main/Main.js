@@ -42,9 +42,14 @@ Ext.define('Fc.view.main.Main', {
         items: [{
             xtype: 'button',
             text: 'Logout',
-            margin: '10 0',
-            handler: 'onClickButton'
+            margin: '10 80',
+            handler: 'onClickButton',
+            style: {
+                'width': '80px',
+                'background-color': 'red'
+            }
         }]
+
     },
 
     
