@@ -38,8 +38,8 @@
 }
 
 #images-view .x-item-selected{
-    background: #eff5fb url(selected.gif) no-repeat right bottom;
-    border:1px solid #99bbe8;
+    background: #efefef url(selected.gif) no-repeat right bottom;
+    border:1px solid #404040;
     padding: 4px;
 }
 #images-view .x-item-selected .thumb{
@@ -95,4 +95,18 @@
     -webkit-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
     -moz-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
     box-shadow: #006633 0 1px 0px 0 inset, #006633 0 -1px 0px 0 inset, #006633 -1px 0 0px 0 inset, #006633 1px 0 0px 0 inset;
+}
+
+
+/* Search box rectangular box */
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-neutral/sass/src/form/field/Text.scss:229 */
+.x-form-trigger-wrap-default.x-form-trigger-wrap-focus {
+    border-color: #d0d0d0;
+}
+
+/* Boxes for items */
+/* /Users/Jenna/Work/slo/slofc/frontend/ext/classic/theme-base/sass/src/view/View.scss:1 */
+.x-view-item-focused {
+    outline: 1px #006633!important;
+    outline-offset: -1px;
 }
