@@ -113,9 +113,11 @@ Ext.define('Fc.view.main.Main', {
         title: 'About',
         iconCls: 'fa-info-circle',
         reference: 'about',
-        /*bind:  {
-            html: '{aboutus}'
-        }*/
+        loader: {
+            url: 'html5up-photon/index.html',
+            autoLoad: true
+        }
+        
 
         /*
         tabConfig: {
