@@ -118,13 +118,5 @@ Ext.define('Fc.view.main.Main', {
             autoLoad: true
         }
         
-
-        /*
-        tabConfig: {
-            listeners: {
-                click: 'onAboutClick'
-            }
-        }
-        */
     }]
 });

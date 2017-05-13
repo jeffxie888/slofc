@@ -18,6 +18,17 @@ Ext.define('Fc.view.login.LoginController', {
             xtype: 'app-main'
         });
 
+    },
+
+    onRegisterClick: function() {
+        // Remove Login Window
+        this.getView().destroy();
+
+        Ext.create({
+            xtype: 'register'
+        });
     }
+
+
 
 });

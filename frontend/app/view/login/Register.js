@@ -1,29 +1,24 @@
-Ext.define('Fc.view.login.Login', {
+Ext.define('Fc.view.login.Register', {
     extend: 'Ext.window.Window',
-    xtype: 'login',
+    xtype: 'register',
 
     requires: [
         'Fc.view.login.LoginController',
-        'Ext.form.Panel',
-        'Fc.view.login.Register'
+        'Ext.form.Panel'
     ],
 
     controller: 'login',
     bodyPadding: 10,
     //title: 'SLO FreeCycle',
-    title: '<div style="text-align:center;">SLO Freecycle</div>',
+    title: '<div style="text-align:center;">SLO Freecycle - Sign up!</div>',
     closable: false,
     autoShow: true,
     width: '25%',
-    draggable: false,
 
-    items: [{
+    items: [/*{
             xtype: 'form',
             reference: 'form',
             items: [{
-                margin: '8px 0px',
-                html: '<div style="color: red">Have an account?</div>'
-            }, {
                 xtype: 'textfield',
                 name: 'username',
                 emptyText: 'Username',
@@ -42,31 +37,15 @@ Ext.define('Fc.view.login.Login', {
             }],
             buttonAlign: 'center',
             buttons: [{
-                text: 'Login',
-                formBind: true,
-                width: '100%',
+                text: 'Sign Up',
                 listeners: {
-                    click: 'onLoginClick'
+                    //click: 'onRegisterClick'
                 }
             }]
         }, {
             xtype : 'menuseparator',
-            margin: '8px 0px',
             width : '100%'
-        }, {
-            margin: '0px 0px 8px 0px',
-            html: 'New to Slo Freecycle?'
-        }, {
-            buttonAlign: 'center',
-            buttons: [{
-                text: 'Sign Up',
-                margin: '8px 0px',
-                width: '100%',
-                listeners: {
-                    click: 'onRegisterClick'
-                }
-            }]
-        }/* {
+        },*/ {
             xtype: 'form',
             reference: 'form',
             buttonAlign: 'center',
@@ -105,5 +84,5 @@ Ext.define('Fc.view.login.Login', {
                     click: 'onLoginClick'
                 }
             }]
-        }*/]
+        }]
 });
