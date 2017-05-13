@@ -17,6 +17,7 @@ Ext.define('Fc.view.main.MainController', {
         currentPerspective: null
     },
 
+    
 
     onItemSelected: function (sender, record) {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
@@ -30,7 +31,7 @@ Ext.define('Fc.view.main.MainController', {
 
 
     onMainTabChange: function(tabpanel, newCard, oldCard, eOpts) {
-        var hash = location.hash.substring(1, location.hash.length);
+        var hash = location.hash.substring(0, location.hash.length);
         var hashArr = hash.split('/');
         var newHash = ''.concat(
                         hashArr[0] + "/",

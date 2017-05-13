@@ -1,13 +1,15 @@
 Ext.define('Fc.view.login.Register', {
     extend: 'Ext.window.Window',
     xtype: 'register',
+    reference: 'registerWindow',
 
     requires: [
         'Fc.view.login.LoginController',
+        'Fc.view.login.RegisterController',
         'Ext.form.Panel'
     ],
 
-    controller: 'login',
+    controller: 'register',
     bodyPadding: 10,
     //title: 'SLO FreeCycle',
     title: '<div style="text-align:center;">SLO Freecycle - Sign up!</div>',
@@ -17,11 +19,12 @@ Ext.define('Fc.view.login.Register', {
 
     items: [{
             xtype: 'form',
-            reference: 'form',
+            reference: 'registerForm',
             buttonAlign: 'center',
+            url: 'api/signup',
             items: [{
                 xtype: 'textfield',
-                name: 'fullname',
+                name: 'name',
                 width: '100%',
                 emptyText: 'Full Name',
                 allowBlank: false
@@ -49,9 +52,7 @@ Ext.define('Fc.view.login.Register', {
             buttons: [{
                 text: 'Sign up!',
                 formBind: true,
-                listeners: {
-                    click: 'onLoginClick'
-                }
+                handler: 'onSignupClick'
             }]
         }]
 });

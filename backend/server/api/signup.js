@@ -161,6 +161,7 @@ internals.applyRoutes = function (server, next) {
                         email: user.email,
                         roles: user.roles
                     },
+                    success: true,
                     session: results.session,
                     authHeader
                 });

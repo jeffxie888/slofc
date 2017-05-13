@@ -59,6 +59,17 @@ internals.applyRoutes = function (server, next) {
                             return reply(err);
                         }
 
+                        /*
+                        reply({
+                            user: {
+                                _id: user._id,
+                                username: user.username,
+                                email: user.email,
+                                roles: user.roles
+                            },
+                            success: true
+                        });*/
+
                         reply(user);
                     });
                 }
@@ -109,6 +120,7 @@ internals.applyRoutes = function (server, next) {
                     email: request.pre.user.email,
                     roles: request.pre.user.roles
                 },
+                success: true,
                 session: request.pre.session,
                 authHeader
             });

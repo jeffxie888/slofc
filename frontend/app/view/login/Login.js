@@ -19,7 +19,8 @@ Ext.define('Fc.view.login.Login', {
 
     items: [{
             xtype: 'form',
-            reference: 'form',
+            reference: 'loginForm',
+            url: 'api/login',
             items: [{
                 margin: '8px 0px',
                 html: '<div style="color: red">Have an account?</div>'
@@ -45,9 +46,7 @@ Ext.define('Fc.view.login.Login', {
                 text: 'Login',
                 formBind: true,
                 width: '100%',
-                listeners: {
-                    click: 'onLoginClick'
-                }
+                handler: 'onLoginClick' 
             }]
         }, {
             xtype : 'menuseparator',
