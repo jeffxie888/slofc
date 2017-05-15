@@ -17,7 +17,15 @@ Ext.define('Fc.view.main.MainController', {
         currentPerspective: null
     },
 
-    
+    routes: {
+        'home': {
+            before: 'checkSession',
+            action: 'onHomeClick'
+        },
+        'login': {
+            action: 'onLogin'
+        }
+    },
 
     onItemSelected: function (sender, record) {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
@@ -29,9 +37,32 @@ Ext.define('Fc.view.main.MainController', {
         }
     },
 
+    checkSession : function() {
+        var args   = Ext.Array.slice(arguments),
+            action = args[args.length - 1];
 
+        if (Fc.user) {
+            action.resume();
+        } else {
+            action.stop();
+
+            this.redirectTo('login');
+        }
+    },
+
+    onHomeClick: function() {
+        Fc.getMainView().setActiveItem(0);
+    },
+
+    onLogin: function() {
+        Ext.create({
+            xtype: 'login'
+        });
+    },
+
+    /*
     onMainTabChange: function(tabpanel, newCard, oldCard, eOpts) {
-        var hash = location.hash.substring(0, location.hash.length);
+        var hash = location.hash.substring(1, location.hash.length);
         var hashArr = hash.split('/');
         var newHash = ''.concat(
                         hashArr[0] + "/",
@@ -39,6 +70,7 @@ Ext.define('Fc.view.main.MainController', {
                         newCard.reference);
         this.redirectTo(newHash);
     },
+    */
 
     onClickButton: function () {
         // Remove the localStorage key/value
@@ -53,17 +85,6 @@ Ext.define('Fc.view.main.MainController', {
         });
     },
 
-    
-    onAboutClick: function () {
-
-        // Remove Main View
-        this.getView().destroy();
-
-        // Add the Login Window
-        Ext.create({
-            xtype: 'login'
-        });
-    }
     
 
 });

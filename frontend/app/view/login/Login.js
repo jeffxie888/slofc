@@ -16,6 +16,7 @@ Ext.define('Fc.view.login.Login', {
     autoShow: true,
     width: '25%',
     draggable: false,
+    defaultButton: 'loginButton',
 
     items: [{
             xtype: 'form',
@@ -43,6 +44,7 @@ Ext.define('Fc.view.login.Login', {
             }],
             buttonAlign: 'center',
             buttons: [{
+                reference: 'loginButton',
                 text: 'Login',
                 formBind: true,
                 width: '100%',

@@ -18,6 +18,7 @@ Ext.define('Fc.view.login.LoginController', {
             form.submit({
                 success: function(form, action) {
                     me.getView().destroy();
+                    Fc.getApplication().isLoggedIn = true;
                     Ext.create({
                         xtype: 'app-main'
                     });

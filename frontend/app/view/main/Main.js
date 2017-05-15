@@ -23,6 +23,7 @@ Ext.define('Fc.view.main.Main', {
     viewModel: 'main',
 
     ui: 'navigation',
+    session: true,
 
     tabBarHeaderPosition: 1,
     titleRotation: 0,
