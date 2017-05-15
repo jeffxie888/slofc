@@ -24,7 +24,7 @@ Ext.define('Fc.view.login.Login', {
             url: 'api/login',
             items: [{
                 margin: '8px 0px',
-                html: '<div style="color: red">Have an account?</div>'
+                html: '<div style="color: #006633"><b>Have an account?</b></div>'
             }, {
                 xtype: 'textfield',
                 name: 'username',
@@ -56,11 +56,15 @@ Ext.define('Fc.view.login.Login', {
             width : '100%'
         }, {
             margin: '0px 0px 8px 0px',
-            html: 'New to Slo Freecycle?'
+            html: '<div style="color: magenta"><b>New to Slo Freecycle?</b></div>'
         }, {
             buttonAlign: 'center',
             buttons: [{
                 text: 'Sign Up',
+                style: {
+                    'background-color': 'magenta',
+                    'border-color': 'magenta'
+                },
                 margin: '8px 0px',
                 width: '100%',
                 listeners: {

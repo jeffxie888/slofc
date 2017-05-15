@@ -11,7 +11,7 @@ Ext.define('Fc.view.main.ProfileView', {
     // New post button
     tbar: [
         '->', // Right aligns it
-            {
+        {
             xtype: 'button',
             text: '<div style="color: black">Logout</div>',
             handler: 'onClickButton',

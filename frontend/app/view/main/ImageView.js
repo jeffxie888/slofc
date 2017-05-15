@@ -35,6 +35,7 @@ Ext.define('Fc.view.main.ImageView', {
         if(typeof(ImageModel) == 'undefined'){
         	ImageModel = Ext.define('ImageModel', {
     	        extend: 'Ext.data.Model',
+                layout: 'card',
     	        fields: [
     	           {name: 'name'},
     	           {name: 'url'},
@@ -45,6 +46,7 @@ Ext.define('Fc.view.main.ImageView', {
     	        ]
     	    })
         };
+
 
 
 	    var store = Ext.create('Ext.data.Store', {
