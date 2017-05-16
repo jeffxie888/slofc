@@ -90,12 +90,10 @@ Ext.define('Fc.view.main.Main', {
         }
     },
 
-    listeners: {
-        tabchange: 'onMainTabChange'
-    },
     items: [{
         title: 'Home',
         iconCls: 'fa-home',
+        id: 'home-test',
         reference: 'home',
         items: [{
             autoScroll: true,

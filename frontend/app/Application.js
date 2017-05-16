@@ -28,7 +28,6 @@ Ext.define('Fc.Application', {
 
         // Check to see the current value of the localStorage key
         loggedIn = Fc.getApplication().isLoggedin;
-        debugger;
 
         // This ternary operator determines the value of the TutorialLoggedIn key.
         // If TutorialLoggedIn isn't true, we display the login window,

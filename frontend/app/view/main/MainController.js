@@ -60,21 +60,10 @@ Ext.define('Fc.view.main.MainController', {
         });
     },
 
-    /*
-    onMainTabChange: function(tabpanel, newCard, oldCard, eOpts) {
-        var hash = location.hash.substring(1, location.hash.length);
-        var hashArr = hash.split('/');
-        var newHash = ''.concat(
-                        hashArr[0] + "/",
-                        hashArr[1] + "/",
-                        newCard.reference);
-        this.redirectTo(newHash);
-    },
-    */
 
-    onClickButton: function () {
+    onLogoutButton: function () {
         // Remove the localStorage key/value
-        localStorage.removeItem('test');
+    
 
         // Remove Main View
         this.getView().destroy();
@@ -85,6 +74,18 @@ Ext.define('Fc.view.main.MainController', {
         });
     },
 
+
+    onNewPostClick: function () {
+        Ext.getCmp("images-view").destroy();
+
+        Ext.getCmp("home-test").add({xtype:'newpost'});
+    },
+
+    onFreeItemsClick: function () {
+        Ext.getCmp("newpost-view").destroy();
+
+        Ext.getCmp("home-test").add({xtype:'imageview'});
+    }
     
 
 });

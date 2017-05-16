@@ -5,8 +5,12 @@ Ext.define('Fc.view.main.ProfileView', {
         'Ext.data.*',
         'Ext.util.*',
         'Ext.view.View',
-        'Ext.app.route.Route'
+        'Ext.app.route.Route',
+
+        'Fc.view.main.MainController'
     ],
+
+    controller: 'main',
 
     // New post button
     tbar: [
@@ -14,18 +18,18 @@ Ext.define('Fc.view.main.ProfileView', {
         {
             xtype: 'button',
             text: '<div style="color: black">Logout</div>',
-            handler: 'onClickButton',
+            handler: 'onLogoutButton',
             style: {
                 'background-color': '#f6f6f6'
             }
-        },
+        }/*,
         {
             xtype: 'button',
             text: '<div style="color: white">New Post</div>',
             style: {
                 'background-color': '#006633'
             }
-        }
+        }*/
 
     ],
     
@@ -57,7 +61,7 @@ Ext.define('Fc.view.main.ProfileView', {
                 title: 'Settings',
                 html: 'hi',
             }]
-    }],
+    }]
 });
 
 

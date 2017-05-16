@@ -8,7 +8,8 @@ Ext.define('Fc.view.main.ImageView', {
         'Ext.view.View',
         'Ext.app.route.Route',
 
-        'Fc.view.main.MainController'
+        'Fc.view.main.MainController',
+        'Fc.view.main.NewPost'
     ],
     controller: 'main',
     // This is the search bar
@@ -22,7 +23,7 @@ Ext.define('Fc.view.main.ImageView', {
                 'background-color': '#006633'
             },
             listeners: {
-                click: 'onAboutClick'
+                click: 'onNewPostClick'
             }
         }
     ],
@@ -35,7 +36,7 @@ Ext.define('Fc.view.main.ImageView', {
         if(typeof(ImageModel) == 'undefined'){
         	ImageModel = Ext.define('ImageModel', {
     	        extend: 'Ext.data.Model',
-                layout: 'card',
+                //layout: 'card',
     	        fields: [
     	           {name: 'name'},
     	           {name: 'url'},
@@ -79,8 +80,7 @@ Ext.define('Fc.view.main.ImageView', {
                 '<div class="x-clear"></div>'
             ],
             selectionModel: {
-                mode   : 'SINGLE',
-
+                mode   : 'SINGLE'
             },
             //height: 500,
             //width: 150,

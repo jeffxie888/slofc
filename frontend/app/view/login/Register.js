@@ -16,6 +16,8 @@ Ext.define('Fc.view.login.Register', {
     closable: false,
     autoShow: true,
     width: '25%',
+    draggable: false,
+    defaultButton: 'signupButton',
 
     items: [{
             xtype: 'form',
@@ -50,6 +52,7 @@ Ext.define('Fc.view.login.Register', {
                 allowBlank: false
             }],
             buttons: [{
+                reference: 'signupButton',
                 text: 'Sign up!',
                 formBind: true,
                 handler: 'onSignupClick'

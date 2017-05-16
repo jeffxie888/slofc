@@ -282,6 +282,9 @@
         },
         {
             "path": "resources/MainTabs.css"
+        },
+        {
+            "path": "resources/NewPostForm.css"
         }
     ],
 

@@ -71,44 +71,5 @@ Ext.define('Fc.view.login.Login', {
                     click: 'onRegisterClick'
                 }
             }]
-        }/* {
-            xtype: 'form',
-            reference: 'form',
-            buttonAlign: 'center',
-            items: [{
-                xtype: 'textfield',
-                name: 'firstname',
-                margin: '8px 0px',
-                width: '100%',
-                emptyText: 'First Name',
-                allowBlank: false
-            },{
-                xtype: 'textfield',
-                name: 'email',
-                width: '100%',
-                emptyText: 'Cal Poly Email',
-                allowBlank: false
-            }, {
-                xtype: 'textfield',
-                name: 'password',
-                width: '100%',
-                inputType: 'password',
-                emptyText: 'Password',
-                allowBlank: false
-            }, {
-                xtype: 'textfield',
-                name: 'repeatpassword',
-                width: '100%',
-                inputType: 'password',
-                emptyText: 'Repeat Password',
-                allowBlank: false
-            }],
-            buttons: [{
-                text: 'Sign up!',
-                formBind: true,
-                listeners: {
-                    click: 'onLoginClick'
-                }
-            }]
-        }*/]
+        }]
 });
