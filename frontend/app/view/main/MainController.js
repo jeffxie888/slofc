@@ -63,10 +63,11 @@ Ext.define('Fc.view.main.MainController', {
 
     onLogoutButton: function () {
         // Remove the localStorage key/value
-    
+        Fc.getApplication().isLoggedIn = false;
 
         // Remove Main View
-        this.getView().destroy();
+        //this.getView().destroy();
+        Ext.getCmp("main-page").destroy();
 
         // Add the Login Window
         Ext.create({

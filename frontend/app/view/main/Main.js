@@ -8,6 +8,7 @@
 Ext.define('Fc.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
+    id: 'main-page',
     plugins: 'viewport',
 
     requires: [
@@ -98,8 +99,7 @@ Ext.define('Fc.view.main.Main', {
         items: [{
             autoScroll: true,
             xtype: 'imageview'
-        }],
-        
+        }]
     }, {
         title: 'Profile',
         iconCls: 'fa-user',
