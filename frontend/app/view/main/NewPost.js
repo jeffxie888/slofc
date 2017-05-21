@@ -42,7 +42,7 @@ Ext.define('Fc.view.main.NewPost', {
         title: 'Freecycle Something!',
         frame: true,
         bodyPadding: '10 10 0 20',
-        reference: 'firstForm',
+        reference: 'newpostForm',
         style: {
  			'border-color': '#006633'
         },
@@ -68,6 +68,8 @@ Ext.define('Fc.view.main.NewPost', {
             emptyText: 'Select an image',
             fieldLabel: 'Photo',
             name: 'photo-path',
+            accept: 'image',
+            multiple: true,
             buttonText: '',
             buttonConfig: {
                 iconCls: 'fa-upload'
@@ -75,39 +77,11 @@ Ext.define('Fc.view.main.NewPost', {
         }],
 
         buttons: [{
-            text: 'Save',
-            handler: 'firstFormSave'
+            text: 'Post',
+            handler: 'formPost'
         }, {
             text: 'Reset',
             handler: 'firstFormReset'
         }]
     }]
-    /*
-    initComponent: function() {
-	    this.items = {
-		    items: [{
-		        xtype: 'component',
-		        html: [
-		            '<h3>Basic File Field</h3>',
-		            '<p>A typical file upload field with Ext style. Direct editing ',
-		            'of the text field cannot be done in a consistent, cross-browser way, ',
-		            'so it is always read-only. The file path reported by the ',
-		            '<code>getValue</code> method will depend on the browser and cannot ',
-		            'be controlled by Ext JS.'
-		        ]
-			}, {
-			        xtype: 'filefield',
-			        hideLabel: true,
-			        reference: 'basicFile'
-			}, {
-			        xtype: 'button',
-			        text: 'Get File Path',
-			        handler: 'getFilePath'
-			}]
-		}
-	}
-	*/
-
-
-
 });

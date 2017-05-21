@@ -56,14 +56,14 @@ Ext.define('Fc.view.login.Login', {
             width : '100%'
         }, {
             margin: '0px 0px 8px 0px',
-            html: '<div style="color: magenta"><b>New to Slo Freecycle?</b></div>'
+            html: '<div style="color: green"><b>New to Slo Freecycle?</b></div>'
         }, {
             buttonAlign: 'center',
             buttons: [{
                 text: 'Sign Up',
                 style: {
-                    'background-color': 'magenta',
-                    'border-color': 'magenta'
+                    'background-color': 'green',
+                    'border-color': 'green'
                 },
                 margin: '8px 0px',
                 width: '100%',
