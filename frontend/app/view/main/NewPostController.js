@@ -17,7 +17,7 @@ Ext.define('Fc.view.main.NewPostController', {
 
         if (form.isValid()) {
             form.submit({
-                url: 'data/form/file-upload.php',
+                url: 'api/newpost',
                 waitMsg: 'Uploading your photo...',
                 success: function(fp, o) {
                     var tpl = new Ext.XTemplate(

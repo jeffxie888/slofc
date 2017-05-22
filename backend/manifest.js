@@ -99,6 +99,9 @@ const manifest = {
         },
         {
             plugin: './server/api/users'
+        },
+        {
+            plugin: './server/api/newpost'
         }
     ]
 };

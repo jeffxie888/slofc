@@ -30,7 +30,8 @@ internals.applyRoutes = function (server, next) {
                 var data = request.payload;
                 if (data.file) {
                     var name = data.file.hapi.filename;
-                    var path = __dirname + "/uploads/" + name;
+                    var path = __dirname + name;
+                    //var path = __dirname + "/uploads/" + name;
                     var file = fs.createWriteStream(path);
 
                     file.on('error', function (err) { 
@@ -52,12 +53,13 @@ internals.applyRoutes = function (server, next) {
     });
 
     next();
+
 };
 
 
 exports.register = function (server, options, next) {
 
-    server.dependency(['auth', 'hapi-mongo-models'], internals.applyRoutes);
+    server.dependency(['hapi-mongo-models'], internals.applyRoutes);
 
     next();
 };
