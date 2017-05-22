@@ -3,6 +3,7 @@ const Async = require('async');
 const AuthPlugin = require('../auth');
 const Boom = require('boom');
 const Joi = require('joi');
+const fs = require('fs');
 
 
 const internals = {};
@@ -30,8 +31,7 @@ internals.applyRoutes = function (server, next) {
                 var data = request.payload;
                 if (data.file) {
                     var name = data.file.hapi.filename;
-                    var path = __dirname + name;
-                    //var path = __dirname + "/uploads/" + name;
+                    var path = __dirname + "/../uploads/" + name;
                     var file = fs.createWriteStream(path);
 
                     file.on('error', function (err) { 
