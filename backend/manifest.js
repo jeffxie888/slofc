@@ -49,7 +49,8 @@ const manifest = {
                         AuthAttempt: './server/models/auth-attempt',
                         Session: './server/models/session',
                         Status: './server/models/status',
-                        User: './server/models/user'
+                        User: './server/models/user',
+                        Post: './server/models/post'
                     },
                     autoIndex: Config.get('/hapiMongoModels/autoIndex')
                 }
@@ -101,7 +102,7 @@ const manifest = {
             plugin: './server/api/users'
         },
         {
-            plugin: './server/api/newpost'
+            plugin: './server/api/newposts'
         }
     ]
 };

@@ -8,7 +8,7 @@
 Ext.define('Fc.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
-    id: 'main-page',
+    reference: 'main-page',
     plugins: 'viewport',
 
     requires: [
@@ -90,15 +90,23 @@ Ext.define('Fc.view.main.Main', {
             }
         }
     },
+    referenceHolder: true,
 
     items: [{
         title: 'Home',
         iconCls: 'fa-home',
-        id: 'home-test',
         reference: 'home',
         items: [{
-            autoScroll: true,
-            xtype: 'imageview'
+            reference: 'home-container',
+            xtype: 'container',
+            layout: 'card',
+            activeItem: 0,
+            items: [{
+                autoScroll: true,
+                xtype: 'imageview'
+            }, {
+                xtype: 'newpost'
+            }]
         }]
     }, {
         title: 'Profile',

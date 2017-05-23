@@ -77,16 +77,21 @@ Ext.define('Fc.view.main.MainController', {
 
 
     onNewPostClick: function () {
+        this.lookupReference("home-container").setActiveItem(1);
+    }
+
+
+    // old method
+    // getCmp(id) but id is apparently bad to use
+    /* 
+    onNewPostClick: function () {
         Ext.getCmp("images-view").destroy();
 
         Ext.getCmp("home-test").add({xtype:'newpost'});
     },
+    */
 
-    onFreeItemsClick: function () {
-        Ext.getCmp("newpost-view").destroy();
-
-        Ext.getCmp("home-test").add({xtype:'imageview'});
-    }
+    
     
 
 });

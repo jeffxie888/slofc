@@ -22,9 +22,7 @@ Ext.define('Fc.view.main.ImageView', {
             style: {
                 'background-color': '#006633'
             },
-            listeners: {
-                click: 'onNewPostClick'
-            }
+            handler: 'onNewPostClick'
         }
     ],
     /**
@@ -36,12 +34,11 @@ Ext.define('Fc.view.main.ImageView', {
         if(typeof(ImageModel) == 'undefined'){
         	ImageModel = Ext.define('ImageModel', {
     	        extend: 'Ext.data.Model',
-                //layout: 'card',
     	        fields: [
     	           {name: 'name'},
     	           {name: 'url'},
                    {name: 'location'},
-                   {name: 'time', type: 'date', dateFormat: 'm/d/Y'}
+                   {name: 'time', type: 'date'}
     	           //{name: 'size', type: 'float'}
     	           //{name:'lastmod', type:'date', dateFormat:'timestamp'}
     	        ]
@@ -82,8 +79,6 @@ Ext.define('Fc.view.main.ImageView', {
             selectionModel: {
                 mode   : 'SINGLE'
             },
-            //height: 500,
-            //width: 150,
             trackOver: true,
             overItemCls: 'x-item-over',
             itemSelector: 'div.thumb-wrap',
@@ -95,7 +90,7 @@ Ext.define('Fc.view.main.ImageView', {
             prepareData: function(data) {
                 Ext.apply(data, {
                     shortName: Ext.util.Format.ellipsis(data.name, 25),
-                    address: Ext.util.Format.ellipsis(data.location, 30),
+                    address: Ext.util.Format.ellipsis(data.location, 40),
                     postTime: Ext.util.Format.date(data.time, "m/d/Y")
                     //sizeString: Ext.util.Format.fileSize(data.size),
                     //dateString: Ext.util.Format.date(data.lastmod, "m/d/Y g:i a")

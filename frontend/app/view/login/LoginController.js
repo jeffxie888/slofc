@@ -19,6 +19,7 @@ Ext.define('Fc.view.login.LoginController', {
                 success: function(form, action) {
                     me.getView().destroy();
                     Fc.getApplication().isLoggedIn = true;
+                    Fc.getApplication().currentUser = Ext.apply({}, action.result.user);
                     Ext.create({
                         xtype: 'app-main'
                     });

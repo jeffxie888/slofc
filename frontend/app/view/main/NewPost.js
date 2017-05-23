@@ -1,7 +1,7 @@
 Ext.define('Fc.view.main.NewPost', {
     extend: 'Ext.panel.Panel',
     xtype: 'newpost',
-    id: 'newpost-view',
+    reference: 'newpost-view',
     requires: [
         'Ext.data.*',
         'Ext.util.*',
@@ -10,7 +10,7 @@ Ext.define('Fc.view.main.NewPost', {
 
         'Fc.view.main.MainController'
     ],
-    controller: 'main',
+    controller: 'newpost',
     tbar: [
     	'->',
     	{
@@ -26,22 +26,17 @@ Ext.define('Fc.view.main.NewPost', {
     ],
 
     defaults: {
-        xtype: 'form',
         layout: 'anchor',
-
         bodyPadding: 10,
         style: {
             'margin-bottom': '20px'
         },
-
-        defaults: {
-            anchor: '100%'
-        }
+        anchor: '100%'
     },
     items: [{
         title: 'Freecycle Something!',
-        frame: true,
         bodyPadding: '10 10 0 20',
+        xtype: 'form',
         reference: 'newpostForm',
         style: {
  			'border-color': '#006633'
@@ -56,18 +51,21 @@ Ext.define('Fc.view.main.NewPost', {
 
         items: [{
             xtype: 'textfield',
-            fieldLabel: 'Title'
+            fieldLabel: 'Title',
+            name: 'title',
         }, {
         	xtype: 'textfield',
-        	fieldLabel: 'Location'
+        	fieldLabel: 'Location',
+            name: 'location'
         }, {
         	xtype: 'textarea',
-        	fieldLabel: 'Description'
+        	fieldLabel: 'Description',
+            name: 'description'
         }, {
             xtype: 'filefield',
             emptyText: 'Select an image',
             fieldLabel: 'Photo',
-            name: 'photo-path',
+            name: 'file',
             accept: 'image',
             multiple: true,
             buttonText: '',
