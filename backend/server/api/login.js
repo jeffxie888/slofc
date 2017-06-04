@@ -6,6 +6,7 @@ const Config = require('../../config');
 const Joi = require('joi');
 
 
+
 const internals = {};
 
 
@@ -111,7 +112,7 @@ internals.applyRoutes = function (server, next) {
         handler: function (request, reply) {
 
             const credentials = request.pre.session._id.toString() + ':' + request.pre.session.key;
-            const authHeader = 'Basic ' + new Buffer(credentials).toString('base64');
+            const authHeader = 'Basic ' + new Buffer(credentials).toString('base64'); 
 
             reply({
                 user: {

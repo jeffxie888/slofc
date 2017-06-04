@@ -17,6 +17,7 @@ Ext.define('Fc.view.login.LoginController', {
         if (form.isValid()) { // make sure the form contains valid data before submitting
             form.submit({
                 success: function(form, action) {
+                    //Ext.util.Cookies.set("key", 'value');
                     me.getView().destroy();
                     Fc.getApplication().isLoggedIn = true;
                     Fc.getApplication().currentUser = Ext.apply({}, action.result.user);

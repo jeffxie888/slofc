@@ -9,13 +9,19 @@ Ext.define('Fc.view.main.ImageView', {
         'Ext.app.route.Route',
 
         'Fc.view.main.MainController',
-        'Fc.view.main.NewPost'
+        'Fc.view.main.NewPost',
+        'Fc.view.main.DetailedPost'
     ],
     controller: 'main',
     // This is the search bar
     tbar: [
-        {xtype: 'textfield', flex: 1.0 },
+        /*{
+            xtype: 'textfield',
+            flex: 1.0,
+        },
         {xtype: 'button', text: 'Search', iconCls: 'x-fa fa-search' },
+        */
+        '->',
         {
             xtype: 'button',
             text: '<div style="color: white">New Post</div>',
@@ -45,8 +51,6 @@ Ext.define('Fc.view.main.ImageView', {
     	    })
         };
 
-
-
 	    var store = Ext.create('Ext.data.Store', {
 	        model: 'ImageModel',
 	        autoLoad: true,
@@ -62,7 +66,7 @@ Ext.define('Fc.view.main.ImageView', {
 
         store.load();
         
-	    this.items = {
+	    this.items = [{
 	    	xtype: 'dataview',
             store: store,
             tpl: [
@@ -79,8 +83,10 @@ Ext.define('Fc.view.main.ImageView', {
             selectionModel: {
                 mode   : 'SINGLE'
             },
+            style: {
+                //'width': '90%'
+            },
             trackOver: true,
-            overItemCls: 'x-item-over',
             itemSelector: 'div.thumb-wrap',
             emptyText: 'No images to display',
             plugins: [
@@ -92,8 +98,6 @@ Ext.define('Fc.view.main.ImageView', {
                     shortName: Ext.util.Format.ellipsis(data.name, 25),
                     address: Ext.util.Format.ellipsis(data.location, 40),
                     postTime: Ext.util.Format.date(data.time, "m/d/Y")
-                    //sizeString: Ext.util.Format.fileSize(data.size),
-                    //dateString: Ext.util.Format.date(data.lastmod, "m/d/Y g:i a")
                 });
                 return data;
             },
@@ -103,9 +107,13 @@ Ext.define('Fc.view.main.ImageView', {
                         s = l !== 1 ? 's' : '';
                     //this.up('panel').setTitle('Simple DataView (' + l + ' item' + s + ' selected)');
                 },
-                click: 'onAboutClick'
+                /*'itemclick': function() {
+                    Ext.create({
+                        xtype: 'detailedpost'
+                    }).show().center();  
+                }*/
             }
-        };
+        }];
     	
         this.callParent(arguments);
     }

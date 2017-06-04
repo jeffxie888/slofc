@@ -22,7 +22,7 @@ exports.register = function (server, options, next) {
                 }
 
                 var images = [];
-                for (var i=0; i<result.length; i++) {
+                for (var i=result.length-1; i>=0; i--) {
                     var post = result[i];
                     images.push({
                         name: post.title,

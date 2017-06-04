@@ -4,10 +4,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    
 
     <title>SLO Freecycle</title>
 
     <!--
+
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow53.js"></script>
+
+
     <script type="text/javascript">
         var Ext = Ext || {}; // Ext namespace won't be defined yet...
 
@@ -50,5 +59,31 @@
     <script id="microloader" data-app="985f4923-aefa-4381-8ea7-49bcc59ba20c" type="text/javascript" src="bootstrap.js"></script>
 
 </head>
-<body></body>
+
+<body>
+
+
+<script type="text/javascript">
+$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+$('div#main-page:panel-1022').scroll(function() {
+    if ( $('div#main-page:panel-1022').scrollTop() > 100 ) {
+        $('a.back-to-top').fadeIn('slow');
+    } else {
+        $('a.back-to-top').fadeOut('slow');
+    }
+});
+
+
+$('a.back-to-top').click(function() {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 700);
+    return false;
+});
+
+</script>
+
+
+</body>
 </html>

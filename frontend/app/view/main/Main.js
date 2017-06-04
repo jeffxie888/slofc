@@ -8,13 +8,15 @@
 Ext.define('Fc.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
-    reference: 'main-page',
+    //reference: 'main-page',
+    id: 'main-page',
+    activeTab: 0,
     plugins: 'viewport',
 
     requires: [
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
-
+        'Ext.util.History',
         'Fc.view.main.MainController',
         'Fc.view.main.MainModel'
     ],
@@ -40,18 +42,7 @@ Ext.define('Fc.view.main.Main', {
             },
             flex: 0
         },
-        iconCls: 'fa-recycle'/*,
-        items: [{
-            xtype: 'button',
-            text: 'Logout',
-            margin: '10 80',
-            handler: 'onClickButton',
-            style: {
-                'width': '80px',
-                'background-color': 'red'
-            }
-        }]*/
-
+        iconCls: 'fa-recycle'
     },
 
     
@@ -90,28 +81,25 @@ Ext.define('Fc.view.main.Main', {
             }
         }
     },
-    referenceHolder: true,
 
     items: [{
         title: 'Home',
         iconCls: 'fa-home',
         reference: 'home',
         items: [{
-            reference: 'home-container',
-            xtype: 'container',
-            layout: 'card',
-            activeItem: 0,
+            reference: 'home-container1',
+            itemId: 'home-container', 
+            //xtype: 'container',
             items: [{
                 autoScroll: true,
                 xtype: 'imageview'
-            }, {
-                xtype: 'newpost'
             }]
         }]
     }, {
         title: 'Profile',
         iconCls: 'fa-user',
         reference: 'profile',
+        //disabled: true,
         items: [{
             autoScroll: true,
             xtype: 'profileview'
@@ -124,6 +112,10 @@ Ext.define('Fc.view.main.Main', {
             url: 'html5up-photon/index.html',
             autoLoad: true
         }
-        
-    }]
+    }],
+
+    listeners: {
+        tabchange: 'onTabChange',
+        afterrender: 'onAfterRender'
+    }
 });

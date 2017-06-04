@@ -1,10 +1,30 @@
+a.back-to-top {
+	width: 60px;
+    /*display: none;*/
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: transparent url(http://i1155.photobucket.com/albums/p559/scrolltotop/arrow53.png) no-repeat center 43%;
+    -webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+
+}
+
+a:hover.back-to-top {
+	background-color: #000;
+}
+
 #images-view .x-panel-body{
     background: white;
     font: 11px Arial, Helvetica, sans-serif;
     text-align: center;
 }
 #images-view .thumb{
-    background: #dddddd;
+    background: #020202;
     padding: 3px;
     padding-bottom: 0;
 }

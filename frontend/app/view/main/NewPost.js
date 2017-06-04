@@ -1,41 +1,31 @@
 Ext.define('Fc.view.main.NewPost', {
-    extend: 'Ext.panel.Panel',
+    extend: 'Ext.window.Window',
     xtype: 'newpost',
-    reference: 'newpost-view',
+    reference: 'newpostWindow',
+    itemId: 'newpost-id',
+    autoShow: true,
     requires: [
         'Ext.data.*',
         'Ext.util.*',
         'Ext.view.View',
         'Ext.app.route.Route',
-
-        'Fc.view.main.MainController'
+        'Fc.view.main.MainController',
     ],
-    controller: 'newpost',
-    tbar: [
-    	'->',
-    	{
-            xtype: 'button',
-            text: '<div style="color: white">Free Items</div>',
-            style: {
-                'background-color': 'magenta'
-            },
-            listeners: {
-                click: 'onFreeItemsClick'
-            }
-        }
-    ],
-
+    controller: 'main',//'newpost',
     defaults: {
         layout: 'anchor',
         bodyPadding: 10,
         style: {
             'margin-bottom': '20px'
         },
-        anchor: '100%'
+        anchor: '100%',
+        height: 350,
+        width: 500
+    },
+    header: {
+        title: 'Freecycle Something!'
     },
     items: [{
-        title: 'Freecycle Something!',
-        bodyPadding: '10 10 0 20',
         xtype: 'form',
         reference: 'newpostForm',
         style: {
@@ -67,19 +57,45 @@ Ext.define('Fc.view.main.NewPost', {
             fieldLabel: 'Photo',
             name: 'file',
             accept: 'image',
-            multiple: true,
+            //multiple: 'multiple',
             buttonText: '',
             buttonConfig: {
                 iconCls: 'fa-upload'
             }
-        }],
+            /*listeners:{
+                afterrender:function(cmp){
+                    cmp.fileInputEl.set({
+                        multiple:'multiple'
+                    });
+                }
+            }*/
+        }/*, {
+            xtype: 'filefield',
+            emptyText: '[OPTIONAL]Select an image',
+            fieldLabel: 'Photo',
+            name: 'file',
+            accept: 'image',
+            buttonText: '',
+            buttonConfig: {
+                iconCls: 'fa-upload'
+            },
+            allowBlank: true
+        }, {
+            xtype: 'filefield',
+            emptyText: '[OPTIONAL]Select an image',
+            fieldLabel: 'Photo',
+            name: 'file',
+            accept: 'image',
+            buttonText: '',
+            buttonConfig: {
+                iconCls: 'fa-upload'
+            },
+            allowBlank: true
+        }*/],
 
         buttons: [{
             text: 'Post',
             handler: 'formPost'
-        }, {
-            text: 'Reset',
-            handler: 'firstFormReset'
         }]
     }]
 });

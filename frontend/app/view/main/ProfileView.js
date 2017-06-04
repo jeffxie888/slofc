@@ -22,14 +22,7 @@ Ext.define('Fc.view.main.ProfileView', {
             style: {
                 'background-color': '#f6f6f6'
             }
-        }/*,
-        {
-            xtype: 'button',
-            text: '<div style="color: white">New Post</div>',
-            style: {
-                'background-color': '#006633'
-            }
-        }*/
+        }
 
     ],
     
@@ -44,7 +37,7 @@ Ext.define('Fc.view.main.ProfileView', {
             {
                 xtype: 'panel',
                 title: 'Recent Posts',
-                html: 'hi',
+                html: 'test'
             },
             {
                 xtype: 'panel',
